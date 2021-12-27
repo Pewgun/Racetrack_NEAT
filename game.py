@@ -140,6 +140,7 @@ def main():
 			break
 	screen.destroy()
 	print("Done")
+	//Only works when there are just 2 input neurons (2 detectors)
 	"""pop.showSpeciesMemNum()
 	pop.showFitnessGrowth()
 	pop.showBestGenomeNeuralNet()"""
