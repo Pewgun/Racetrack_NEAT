@@ -106,7 +106,7 @@ def main():
 		screen = Screen(pop.genomes, show=False)
 		while screen.doActions():
 			for c in screen.cars:
-				if c.chPassed == 100*27:#16 circles
+				if c.chPassed == 16*27:#16 circles
 					flag = True
 			if flag:
 				break
